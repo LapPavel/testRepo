@@ -1,14 +1,121 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pavel Lappo - CV</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div>Тестовая стараница</div>
-    <div>пробное письмо</div>
-</body>
+  </head>
+  <body>
+      <header>
+        <div class="container head">
+          <div class="photo-head back-blc">
+            <img src="img/photo.png" alt="Фото">
+          </div>
+          <section id="name-head">
+            <h1><b>PAVEL</b> LAPPO</h1>
+            <p>FRONTEND DEVELOPER</p>
+            <nav>
+              <ul class="menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#work-exp">Work experience</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#language">Language</a></li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </header>
+      <main class="container">
+        <section class="color-white back-blc">
+          <div id="contact">
+            <h2>CONTACTS</h2>
+            <ul>
+              <li>Phone: +375 44 594-11-03</li>
+              <li>E-mail: wizd@tut.by</li>
+              <li>Discord: @Pavel Lappo#7755</li>
+            </ul>
+          </div>
+		      <div id="skills">
+            <h2>SOFTWARE SKILLS</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScripts</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </div>
+		  <div id="education">
+			<h2>EDUCATION</h2>
+			<ul>
+				<li>Belarusian-Russian University:
+          <ul>
+            <li>Automotive engineering: 2006-2011</li>
+          </ul>
+        </li>
+				<li>Selfeducation:
+          <ul>
+            <li><a href="https://learn.javascript.ru/">The Modern JavaScript Tutorial</a></li>
+            <li><a href="https://webref.ru/">HTML and CSS Reference</a></li>
+          </ul>
+        </li>
+			</ul>
+		  </div>
+		  <div id="language">
+        <h2>LANGUAGE</h2>
+        <ul>
+          <li>Russian - Native speaker</li>
+          <li>English - B1: Intermediate</li>
+        </ul>
+		  </div>
+        </section>
+        <section class="right-side">
+          <div id="about">
+            <h2>ABOUT ME</h2>
+            <p>I have a great desire to work in the IT industry. I started doing small tasks on the Internet on the front-end and I liked it. I decided to enroll in the RSSchool school and get trained in order to receive relevant knowledge in this direction.</p>
+          </div>
+          <div id="code">
+          <h2>CODE EXAMPLE</h2>
+          <p>Output to the console of leap years in the specified interval:</p>
+          <pre>var year1 = +prompt('Enter start year');
+var year2 = +prompt('Enter end year');
+
+if (year2 &lt; year1) {
+  alert ('Start year is greater than end year!')
+} else {
+  while (year1 &lt;= year2) {
+    if (year1 % 4 == 0) {
+      if (year1 % 100 != 0) {
+        console.log(year1);
+      } else if (year1 % 400 == 0) {
+        console.log(year1);
+      }
+    }
+    year1++;
+  }
+}</pre>
+		      </div>
+          <div id="work-exp">
+            <h2>WORK EXPERIENCE</h2>
+            <ul>
+              <li><a href="https://lappavel.github.io/rsschool-cv/cv">My CV Markdown</a></li>
+              <li><a href="https://lappavel.github.io/rsschool-cv/">My CV Page</a></li>
+            </ul>
+          </div>
+        </section>
+      </main>
+	  <footer class="footer">
+      <a class="color-white" href="https://github.com/lappavel">
+        <img class="fot-img" src="img/github-mark-white.svg" alt="GitHub">
+        <p>My GitHub</p>
+      </a>
+      <h2>2022</h2>
+      <a href="https://rs.school/js/">
+        <img class="fot-img" src="img/rs_school_js.svg" alt="RS School">
+      </a>
+	  </footer>
+  </body>
 </html>
