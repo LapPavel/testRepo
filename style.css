@@ -153,11 +153,14 @@ body{
 	html {
 		font-size: 1.6vw;
 	}
+	.fot-img {
+		height: 30px;
+	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
 	html {
-		font-size: 1.6vw;
+		font-size: 1.9vw;
 	}
 	.photo-head img {
 		width: 20vw;
@@ -173,5 +176,40 @@ body{
 	}
 	#code pre {
 		margin-left: 40px;
+	}
+	#work-exp ul {
+		padding-left: 40px;
+	}
+	.fot-img {
+		height: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 2.3vw;
+	}
+	.photo-head img {
+		width: 20vw;
+	}
+	#name-head {
+		padding-left: 10px;
+	}
+	.right-side h2 {
+		padding-left: 10px;
+	}
+	.right-side p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#code pre {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#work-exp ul {
+		padding-left: 10px;
+	}
+	.fot-img {
+		height: 20px;
 	}
 }
