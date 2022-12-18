@@ -193,22 +193,22 @@ body{
 		width: 20vw;
 	}
 	#name-head {
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 	.right-side h2 {
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 	.right-side p {
-		margin-left: 10px;
+		margin-left: 20px;
 		margin-right: 10px;
 	}
 	#code pre {
-		margin-left: 10px;
+		margin-left: 20px;
 		margin-right: 10px;
 		font-size: 0.9rem;
 	}
 	#work-exp ul {
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 	.fot-img {
 		height: 20px;
